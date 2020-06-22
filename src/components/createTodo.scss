@@ -1,0 +1,73 @@
+.btnCancel, .btnAdd{
+  padding: .5em;
+  margin: 1em;
+  color : white;
+  background: #ff0000;
+}
+.btnAdd{
+  padding: .5em;
+  margin: 1em;
+  color : white;
+  background: green;
+   
+}
+.createTodo{
+  padding: .8em;
+  width: 100%;
+  border-radius: .5em;
+  outline: none;
+  margin-left : 1em;
+
+}
+.todoShow{
+  margin: 1em;
+  text-align: center;
+}
+.todoHeader{
+  margin-top: 2em;
+  background: #E6DAD7;
+  height: 2em;
+  padding-top: 1em;
+}
+.todoTable{
+  margin-top : 3em;
+  margin-left: 3em;
+}
+.tableHeader{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background:#5C5452 ;
+  height: 2.5em;
+  color: white;
+  padding-top: 1.5em;
+}
+.todolist{
+  display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background:#E78269 ;
+    height: 2.5em;
+    color: white;
+    padding-top: .5em;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+.todobtn{
+  display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    background: #E62E39;
+}
+.todos{
+  margin-bottom: 2em
+}
